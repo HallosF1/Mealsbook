@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "mealsbook",
+    "slug": "mealsbook",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/meal.png",
+    "splash": {
+      "image": "./assets/meal.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#4a148c"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/meal.png",
+        "backgroundColor": "#4a148c"
+      }
+    },
+    "web": {
+      "favicon": "./assets/meal.png"
+    }
+  }
+}
